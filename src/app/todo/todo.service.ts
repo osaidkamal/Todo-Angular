@@ -26,7 +26,7 @@ export class TodoService {
   }
 
   deleteItem(index) {
-    this.todoList = this.todoList.filter( item => item.id !== index)
-  }
+   this.todoList = this.todoList.filter( item => item.id !== index)
+ }
 
 }
