@@ -4,14 +4,15 @@ app-todo-header {
 }
 
 .todo-body {
-    height: 90vh;
+    height: 70vh;
     width:70%;
     margin: 1rem auto;
+    
 }
 
 app-todo-input {
     width: 100%;
-    display: flex;
+   display: flex;
     justify-content: space-around;
 }
 
