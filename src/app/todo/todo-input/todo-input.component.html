@@ -1,4 +1,4 @@
    <mat-form-field class="todo-input">
         <input matInput placeholder="Enter a todo Item" #item>
     </mat-form-field>   
-    <button mat-raised-button (click)="addTodo(item.value);item.value=''">Add Todo</button>
+    <button mat-mini-fab color="accent" (click)="addTodo(item.value);item.value=''">+</button>

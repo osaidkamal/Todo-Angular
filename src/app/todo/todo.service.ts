@@ -7,14 +7,15 @@ import { Todo } from "../todo/todo.model"
 export class TodoService {
 
   constructor() { }
-
+ 
   todoList: Todo[] = [
    
   ];
 
   addTodo(newItem) {
+    let x=this.todoList.length;
     const newTodo: Todo = {
-      id: 0,
+      id: x,
       todo: newItem,
       completed: false
     }
@@ -26,7 +27,8 @@ export class TodoService {
   }
 
   deleteItem(index) {
-   this.todoList = this.todoList.filter( item => item.id !== index)
- }
+   this.todoList.splice(index,1);
+ }               
+ 
 
 }

@@ -8,7 +8,7 @@ import { TodoComponent } from './todo/todo.component';
 import { TodoInputComponent } from './todo/todo-input/todo-input.component';
 import { TodoHeaderComponent } from './todo/todo-header/todo-header.component';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
-
+import {TodoFooterComponent} from './todo/todo-footer/todo-footer.component';
 import {MatToolbarModule, MatCardModule, MatInputModule, MatButtonModule, MatExpansionModule, MatListModule,  MatIconModule} from '@angular/material';
 
 
@@ -18,7 +18,8 @@ import {MatToolbarModule, MatCardModule, MatInputModule, MatButtonModule, MatExp
     TodoComponent,
     TodoInputComponent,
     TodoHeaderComponent,
-    TodoListComponent
+    TodoListComponent,
+    TodoFooterComponent
   ],
   imports: [
     BrowserModule,
